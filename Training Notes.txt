@@ -1,0 +1,30 @@
+Setup Repository by
+
+Felix@FelixPC MINGW64 ~
+$ git config --global user.name "felix.amando"
+
+Felix@FelixPC MINGW64 ~
+$ git config --global user.email "felix.amando@gmail.com"
+
+Felix@FelixPC MINGW64 /d/Google Drive/GGF/Eduonix - Learn NodeJs/Chapter 3 - Git and NPM (master)
+$ git add .
+
+Felix@FelixPC MINGW64 /d/Google Drive/GGF/Eduonix - Learn NodeJs/Chapter 3 - Git and NPM (master)
+$ git commit -am "first commit"
+[master (root-commit) 3bdd9a4] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Test.txt
+
+Felix@FelixPC MINGW64 /d/Google Drive/GGF/Eduonix - Learn NodeJs/Chapter 3 - Git and NPM (master)
+$ git remote add origin https://github.com/felix-amando/trainingnodeapp.git
+
+Felix@FelixPC MINGW64 /d/Google Drive/GGF/Eduonix - Learn NodeJs/Chapter 3 - Git and NPM (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 208 bytes | 104.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/felix-amando/trainingnodeapp.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
