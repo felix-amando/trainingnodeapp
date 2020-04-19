@@ -28,3 +28,6 @@ To https://github.com/felix-amando/trainingnodeapp.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
+Felix@FelixPC MINGW64 /d/Google Drive/GGF/Eduonix - Learn NodeJs/Chapter 3 - Git and NPM (master)
+$ node server.js
+Webserver has started
